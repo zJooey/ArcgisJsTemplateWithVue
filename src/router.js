@@ -28,6 +28,11 @@ export default new Router({
       path: '/tdt',
       name: 'tdt',
       component: () => import('./views/TDT.vue')
+    },
+    {
+      path: '/tdtLayer',
+      name: 'tdtLayer',
+      component: () => import('./views/TDTLayer.vue')
     }
   ]
 })

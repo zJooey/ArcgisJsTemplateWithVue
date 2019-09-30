@@ -7,7 +7,7 @@ function resolve (dir) {
 
 const name = 'tjyh_3d' // page title
 
-const port = process.env.port || process.env.npm_config_port || 8708 // dev port
+const port = process.env.port || process.env.npm_config_port || 8788 // dev port
 
 // All configuration item explanations can be find in https://cli.vuejs.org/config/
 module.exports = {
@@ -17,7 +17,6 @@ module.exports = {
   // lintOnSave: process.env.NODE_ENV === 'development',
   productionSourceMap: false,
   devServer: {
-    host: '0.0.0.0',
     port: port,
     open: true,
     overlay: {

@@ -5,6 +5,7 @@
       <router-link to="/about">About</router-link> |
       <router-link to="/map">Map</router-link> |
       <router-link to="/tdt">TDT</router-link>
+      <router-link to="/tdtLayer">TDTLayer</router-link>
     </div>
     <div id="main">
       <router-view/>
